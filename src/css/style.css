@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;800&display=swap');
+
+.pinturas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pinturas .quadro{
+    width: 335px;
+    height: 432px;
+    margin: 5px;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Public Sans', sans-serif;
+    color: #fff;
+}
+
+.pinturas .quadro1{
+    background-image: url(../images/rome.png);
+}
+
+.pinturas .quadro2{
+    background-image: url(../images/boat.png);
+}
+
+.pinturas .quadro3{
+    background-image: url(../images/sand-and-sea.png);
+}
+
+.pinturas .quadro4{
+    background-image: url(../images/starry-night.png);
+}
